@@ -1,0 +1,120 @@
+/* Dar estilos a los elementos HTML de acuerdo con las siguientes instrucciones.
+NO ALTERE EL HTML EXISTENTE PARA HACER ESTO. ESCRIBIR SOLAMENTE CSS!
+
+/* Proporcione al elemento <body> un fondo de #bdc3c7 */
+
+body{
+
+	background-color: #bdc3c7;
+}
+
+/* Hacer el elemento <h1> #9b59b6 */
+
+h1{
+	color: #9b59b6;
+	
+}
+
+/* Hacer que todos los elementos <h2> sean naranja */
+
+h2{
+	color: orange;
+}
+
+/* Haz que todos los elementos <li> sean azules (elige tu propio azul hexadecimal) */
+
+li{
+	color: blue;
+}
+
+/* Cambiar el fondo en cada párrafo para que sea amarillo */
+
+p{
+	background-color: yellow;
+	
+}
+
+/* Hacer que todas las entradas tengan un borde rojo de 3 píxeles */
+
+
+input {
+border: red 3px;
+  }
+
+/* Dale a todo con la clase 'hola' un fondo blanco */
+
+.hello{
+background-color: white;
+}
+
+/* Dale al elemento con id 'especial' un borde azul sólido de 2px (elige tu propio rgb azul) */
+
+#special{
+	border: blue solid 2px;
+}
+
+/* Hacer todos los <p> que están anidados dentro de divs 25px font (font-size: 25px) */
+
+div>p{
+	font-size: 25px;
+}
+
+/* Hacer que solo las entradas con tipo 'texto' tengan un fondo gris */
+
+[ type="text"]{
+
+	background-color:gray;
+}
+
+
+
+/* Dé a ambos <p> dentro del 3er <div> un fondo rosado */
+
+div:nth-of-type(3) p{
+	background-color: #9b59b6;
+
+}
+
+
+
+
+/* Da el 2do <p> dentro del 3er <div> un borde blanco 5px */
+
+div:nth-of-type(3) p:nth-child(2){
+	background-color: blue;
+
+}
+
+/* Haga que el <em> en el tercer elemento <div> sea blanco y la fuente de 20px (tamaño de fuente: 20px) */
+
+/* DESAFÍOS DE BONIFICACIÓN */
+/* Es posible que necesite buscar otros selectores y propiedades */
+
+/* Hacer que todas las casillas de verificación "marcadas" tengan un margen izquierdo de 50px (margen-izquierda: 50px) */
+
+[ type="checkbox"]{
+
+	margin-left: 50px;
+}
+
+/* Haz que los elementos <label> sean MAYÚSCULAS sin cambiar el HTML (definitivamente mira esto */
+
+label{
+	text-transform: uppercase;
+}
+
+/* Crea la primera letra del elemento con el id 'verde' especial y el tamaño de letra 100px (tamaño de fuente: 100) */
+
+/* Hace que el color del elemento <h1> cambie a azul cuando se coloca sobre */
+
+
+h1:hover{
+	color: blue;
+}
+
+
+/* Hace que los elementos <a> que han sido visitados sean grises */
+
+a:visited {
+	color: grey;
+	}
